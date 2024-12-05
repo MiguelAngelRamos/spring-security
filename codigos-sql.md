@@ -30,7 +30,7 @@ INSERT INTO authorities (username, authority) values ('super_user', 'admin'),('b
 
 ```sql
 
-USE security_custom;
+USE custom_security;
 
 CREATE TABLE customers (
     id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY, -- ID autoincremental como clave primaria
